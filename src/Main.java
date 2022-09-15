@@ -18,7 +18,6 @@ public class Main {
         //TODO actions that earns scores
         //TODO add them by probability
 
-
         return avgScore;
     }
 }
