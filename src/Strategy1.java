@@ -42,4 +42,29 @@ public class Strategy1 implements Autonomous, TeleOp, EndGame {
     public int CycleLowJunction(int maxCone) {
         return 0;
     }
+
+    @Override
+    public int signalDetect(int possibility) {
+        return 0;
+    }
+
+    @Override
+    public int coneStacking(int possibility) {
+        return 0;
+    }
+
+    @Override
+    public int cycleHighJunction(int possibility, int maxCone) {
+        return 0;
+    }
+
+    @Override
+    public int CycleMiddleJunction(int possibility, int maxCone) {
+        return 0;
+    }
+
+    @Override
+    public int CycleLowJunction(int possibility, int maxCone) {
+        return 0;
+    }
 }
